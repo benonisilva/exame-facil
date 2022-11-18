@@ -620,10 +620,60 @@
                 1,
                 2
               ],
-              "procedimento": "",
+              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
               "is_negrito": false,
               "is_obervacao": false,
               "orderm": 1
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 2
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 3
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 4
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 5
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 6
             }
           ],
           "grupos": [
@@ -631,7 +681,7 @@
             2
           ],
           "id": 1,
-          "nome": "Radiografia de Esôfago"
+          "nome": "Angiografia cerebral de 4 vasos"
         }
       ]
     },
