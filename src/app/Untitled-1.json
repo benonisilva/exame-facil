@@ -552,6 +552,56 @@
           ],
           "id": 1,
           "nome": "Urografia Excretora ou venosa"
+        },
+        {
+          "procedimentos": [
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Na véspera do exame:",
+              "is_negrito": true,
+              "is_obervacao": false,
+              "orderm": 1
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Ás 19:00h tomar 2 comprimidos de laxante.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 2
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Idosos a partir de 60 anos, não necessitam fazer o laxante, somente jejum de 8 horas antes do exame.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 3
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Pacientes que fazem uso de METFORMINA, suspender o uso do medicamento 3 dias antes do exame.",
+              "is_negrito": true,
+              "is_obervacao": false,
+              "orderm": 4
+            }
+          ],
+          "grupos": [
+            1,
+            2
+          ],
+          "id": 1,
+          "nome": "Uretrocistografia Miccional"
         }
       ]
     },
