@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{exame.nome}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item href="#" class="ion-activated" *ngFor="let procedimento of exame.procedimentos; let i = index">
+      <ion-card-content>
+        {{procedimento}}
+      </ion-card-content>
+    </ion-item>
+  </ion-card>
+</ion-content>

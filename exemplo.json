@@ -1,0 +1,18 @@
+{
+    "grupos": [
+        {
+            "id": 1,
+            "exames": [
+                {
+                    "id": 1,
+                    "nome": "Radiografia peniana",
+                    "procedimentos": [
+                        "Fazer Jejum",
+                        "Orar"
+                    ]
+                }
+            ],
+            "observacao": ""
+        }
+    ]
+}

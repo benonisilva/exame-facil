@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar debounce="200" placeholder="Procurar Exame"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let exame of exames">
+    <ion-item >
+      <ion-button [routerLink]="'/detalhe-exame/' + exame.id" fill="outline" slot="end">IR</ion-button>
+      <ion-card-content>
+          {{exame.nome}}
+      </ion-card-content>
+    </ion-item>
+</ion-card>
+</ion-content>

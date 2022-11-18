@@ -15,6 +15,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'grupos-exame/:id',
+    loadChildren: () => import('./grupos-exame/grupos-exame.module').then( m => m.GruposExamePageModule)
+  },
+  {
+    path: 'exames/:grupo',
+    loadChildren: () => import('./exames/exames.module').then( m => m.ExamesPageModule)
+  },
+  {
+    path: 'detalhe-exame/:id',
+    loadChildren: () => import('./detalhe-exame/detalhe-exame.module').then( m => m.DetalheExamePageModule)
+  },
 ];
 
 @NgModule({
