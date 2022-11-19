@@ -1540,16 +1540,15 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [
-                  1,
-                  2
-                ],
-                "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
-                "is_negrito": false,
-                "is_obervacao": false,
-                "orderm": 1
-              }
-
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 1
+            }
           ],
           "nome": "Paaf (punção aspirativa por agulha fina) de tireóide"
         },
@@ -1561,15 +1560,15 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [
-                  1,
-                  2
-                ],
-                "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
-                "is_negrito": false,
-                "is_obervacao": false,
-                "orderm": 1
-              }
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 1
+            }
           ],
           "nome": "Paaf (punção aspirativa por agulha grossa) de mama"
         },
@@ -1581,10 +1580,13 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [1, 2],
-                "procedimento": "Jejum de 4 a 6 horas se for previsto a utilização de contraste ou sedativo.",
-                "is_obervacao": false,
-                "is_negrito": false
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Jejum de 4 a 6 horas se for previsto a utilização de contraste ou sedativo.",
+              "is_obervacao": false,
+              "is_negrito": false
             }
           ],
           "nome": "Biópsia de Tórax Guiada por Ultrassom ou tomografia"
@@ -1597,25 +1599,34 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [1, 2],
-                "procedimento": "- Procedimento realizado em paciente internado. ",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 1
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Procedimento realizado em paciente internado. ",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 1
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Não existe preparo pré exame. ",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 2
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Não existe preparo pré exame. ",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 2
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- O Preparo é pós exame e prescrito pelo Enfermeiro Nefrologista da clínica.",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 3
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- O Preparo é pós exame e prescrito pelo Enfermeiro Nefrologista da clínica.",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 3
             }
           ],
           "nome": "Biópsia de Rim Transplantado"
@@ -1628,18 +1639,24 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [1, 2],
-                "procedimento": "Jejum de 8 horas antes do exame.",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 1
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Jejum de 8 horas antes do exame.",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 1
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "Observar a importância de exames pré operatórios no dia do exame",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 2
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Observar a importância de exames pré operatórios no dia do exame",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 2
             }
           ],
           "nome": "Biópsia Hepática"
@@ -1652,67 +1669,94 @@
           "id": 1,
           "procedimentos": [
             {
-                "grupos": [1, 2],
-                "procedimento": "Na véspera do exame: ",
-                "is_obervacao": true,
-                "is_negrito": false,
-                "orderm": 1
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Na véspera do exame: ",
+              "is_obervacao": true,
+              "is_negrito": false,
+              "orderm": 1
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Realizar 1ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 21:00h",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 2
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Realizar 1ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 21:00h",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 2
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "-Iniciar 1 comprimido de Ciprofloxacino de 12/12horas.",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 3
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "-Iniciar 1 comprimido de Ciprofloxacino de 12/12horas.",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 3
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "No dia do exame: ",
-                "is_obervacao": true,
-                "is_negrito": false,
-                "orderm": 4
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "No dia do exame: ",
+              "is_obervacao": true,
+              "is_negrito": false,
+              "orderm": 4
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Fazer a 2ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 05:00h",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 4
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Fazer a 2ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 05:00h",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 4
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Trazer uma caixa de supositório PROCTO-GLYVENOL",
-                "is_obervacao": false,
-                "is_negrito": false,
-                "orderm": 5
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Trazer uma caixa de supositório PROCTO-GLYVENOL",
+              "is_obervacao": false,
+              "is_negrito": false,
+              "orderm": 5
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Paciente que faz uso de AAS, suspender o uso do medicamento por 8 dias antes do exame.",
-                "is_obervacao": true,
-                "is_negrito": false,
-                "orderm": 6
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Paciente que faz uso de AAS, suspender o uso do medicamento por 8 dias antes do exame.",
+              "is_obervacao": true,
+              "is_negrito": false,
+              "orderm": 6
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "- Paciente ambulatorial pode receber o preparo do exame no posto de enfermagem do DDI 2 dias antes do exame.",
-                "is_obervacao": true,
-                "is_negrito": false,
-                "orderm": 7
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Paciente ambulatorial pode receber o preparo do exame no posto de enfermagem do DDI 2 dias antes do exame.",
+              "is_obervacao": true,
+              "is_negrito": false,
+              "orderm": 7
             },
             {
-                "grupos": [1, 2],
-                "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
-                "is_obervacao": true,
-                "is_negrito": true,
-                "orderm": 8
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+              "is_obervacao": true,
+              "is_negrito": true,
+              "orderm": 8
             }
           ],
           "nome": "Biópsia de Próstata guiada por Ultrassom"
@@ -1745,7 +1789,47 @@
             2
           ],
           "id": 1,
-          "nome": "Radiografia de Esôfago"
+          "nome": "Endoscopia Digestiva Alta"
+        },
+        {
+          "procedimentos": [
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 1
+            }
+          ],
+          "grupos": [
+            1,
+            2
+          ],
+          "id": 1,
+          "nome": "Colonocospia"
+        },
+        {
+          "procedimentos": [
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 1
+            }
+          ],
+          "grupos": [
+            1,
+            2
+          ],
+          "id": 1,
+          "nome": "Retosigmoidoscopia"
         }
       ]
     }

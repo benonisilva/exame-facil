@@ -16,15 +16,15 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'grupos-exame/:id',
+    path: 'grupos-exame/:id_user',
     loadChildren: () => import('./grupos-exame/grupos-exame.module').then( m => m.GruposExamePageModule)
   },
   {
-    path: 'exames/:grupo',
+    path: 'exames/:id_user/:grupo',
     loadChildren: () => import('./exames/exames.module').then( m => m.ExamesPageModule)
   },
   {
-    path: 'detalhe-exame/:id',
+    path: 'detalhe-exame/:id_user/:grupo/:index',
     loadChildren: () => import('./detalhe-exame/detalhe-exame.module').then( m => m.DetalheExamePageModule)
   },
 ];

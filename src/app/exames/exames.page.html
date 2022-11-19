@@ -5,9 +5,9 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let exame of exames">
+  <ion-card *ngFor="let exame of exames; let indexExame = index">
     <ion-item >
-      <ion-button [routerLink]="'/detalhe-exame/' + exame.id" fill="outline" slot="end">IR</ion-button>
+      <ion-button [routerLink]="getNextUrl(userId, grupoId, indexExame)" fill="outline" slot="end">IR</ion-button>
       <ion-card-content>
           {{exame.nome}}
       </ion-card-content>

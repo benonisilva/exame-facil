@@ -12,18 +12,20 @@ export class GruposExamePage implements OnInit {
 
   public grupos: Grupo[]; 
   public tipo: string;
+  public idGrupoUsuario: number;
 
   constructor(private data: DataService, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    const idStr = this.activatedRoute.snapshot.paramMap.get('id');
+    const idStr = this.activatedRoute.snapshot.paramMap.get('id_user');
     const id = parseInt(idStr, 10);
+    this.idGrupoUsuario = id;
     if (id === 1) {
       this.tipo = "ENFERMEIRO"
     } else if(id === 2) {
       this.tipo = "PACIENTE"
     }
-    this.grupos = this.data.getGruposByGrupoId(id);
+    this.grupos = this.data.getGruposByGrupoId(this.idGrupoUsuario);
   }
 
   getBackButtonText() {

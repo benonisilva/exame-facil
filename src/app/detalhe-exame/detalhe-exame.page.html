@@ -1,15 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>{{exame.nome}}</ion-title>
+    <ion-title>{{exameName}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
-    <ion-item href="#" class="ion-activated" *ngFor="let procedimento of exame.procedimentos; let i = index">
-      <ion-card-content>
-        {{procedimento}}
+    <ion-item *ngFor="let procedimento of procedimentos; let i = index">
+      <ion-card-content *ngIf="procedimento.is_negrito">
+       <b>{{procedimento.procedimento}}</b> 
       </ion-card-content>
+      <ion-card-content *ngIf="!procedimento.is_negrito">
+        {{procedimento.procedimento}}
+       </ion-card-content>
     </ion-item>
   </ion-card>
 </ion-content>

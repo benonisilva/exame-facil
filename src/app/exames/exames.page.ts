@@ -11,6 +11,9 @@ import { Exame } from '../services/model/exame.model';
 export class ExamesPage implements OnInit {
 
   public exames: Exame[];
+  public grupoId: number;
+  public userId: number;
+  
   examesTemp: Exame[];
 
   constructor(private data: DataService, private activatedRoute: ActivatedRoute) { }
@@ -18,8 +21,19 @@ export class ExamesPage implements OnInit {
   ngOnInit() {
     const idStr = this.activatedRoute.snapshot.paramMap.get('grupo');
     const id = parseInt(idStr, 10);
-    this.exames = this.data.getExamesByGrupoId(id);
+    const userIdStr = this.activatedRoute.snapshot.paramMap.get('id_user');
+    
+    this.userId = parseInt(userIdStr, 10);
+    this.grupoId = id;
+    this.exames = this.data.getExamesByGrupoId(id).filter(exame => exame.grupos.some(g=> g === this.userId));
+    
     console.warn(this.exames);
+  }
+
+  getNextUrl(userId: number, grupoId: number, index: number): string {
+    const retVal = `/detalhe-exame/${userId}/${grupoId}/${index}`;
+    console.warn(retVal);
+    return retVal;
   }
 
   search(query: string) {

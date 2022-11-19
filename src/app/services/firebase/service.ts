@@ -17,7 +17,7 @@ export class FireBaseService {
         const collectionGrupos = collection(this.db, 'grupos');
         const documents =  getDocs(collectionGrupos);
         const data = (await documents).docs[0].data();
-        const grupos = data.grupos as Grupo[];
+        const grupos = Object.values(data.grupos) as Grupo[];
         console.log(grupos);
         return grupos;
     }

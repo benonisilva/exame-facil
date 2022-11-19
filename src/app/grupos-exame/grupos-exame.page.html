@@ -13,7 +13,7 @@
   
   <ion-card *ngFor="let grupo of grupos">
       <ion-item >
-        <ion-button [routerLink]="'/exames/' + grupo.id" fill="outline" slot="end">IR</ion-button>
+        <ion-button [routerLink]="'/exames/' + idGrupoUsuario + '/' + grupo.id" fill="outline" slot="end">IR</ion-button>
         <ion-card-content>
             {{grupo.nome}}
         </ion-card-content>
