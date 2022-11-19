@@ -1209,10 +1209,80 @@
                             1,
                             2
                         ],
-                        "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
+                        "procedimento": "Se o exame for pela manhã",
                         "is_negrito": false,
                         "is_obervacao": false,
                         "orderm": 1
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "Na véspera do exame:",
+                        "is_negrito": true,
+                        "is_obervacao": false,
+                        "orderm": 2
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "- jejum às 22:00h",
+                        "is_negrito": false,
+                        "is_obervacao": false,
+                        "orderm": 3
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 22:00h e às 05:00h.",
+                        "is_negrito": false,
+                        "is_obervacao": false,
+                        "orderm": 4
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "Se o exame for a tarde:",
+                        "is_negrito": true,
+                        "is_obervacao": false,
+                        "orderm": 5
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": " -Tomar chá com torradas às 07:00h, depois ficar de jejum.",
+                        "is_negrito": false,
+                        "is_obervacao": false,
+                        "orderm": 6
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 10:00h e às 12:00h.",
+                        "is_negrito": false,
+                        "is_obervacao": false,
+                        "orderm": 7
+                    },
+                    {
+                        "grupos": [
+                            1,
+                            2
+                        ],
+                        "procedimento": "Glicerol 120mg/mL pode ser disponibilizado no posto de enfermagem do DDI",
+                        "is_negrito": true,
+                        "is_obervacao": false,
+                        "orderm": 8
                     }
                 ],
                 "grupos": [
@@ -1220,7 +1290,7 @@
                     2
                 ],
                 "id": 1,
-                "nome": "Ultrassom de próstata (via abdominal)"
+                "nome": "Ultrassom de próstata (transretal)"
             },
             {
                 "procedimentos": [
