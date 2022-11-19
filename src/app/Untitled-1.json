@@ -1299,7 +1299,7 @@
                             1,
                             2
                         ],
-                        "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
+                        "procedimento": "Os exames de Ultrassom Doppler, não necessitam de preparo",
                         "is_negrito": false,
                         "is_obervacao": false,
                         "orderm": 1
@@ -1310,7 +1310,7 @@
                     2
                 ],
                 "id": 1,
-                "nome": "Ultrassom de próstata (via abdominal)"
+                "nome": "Ultrassom Doppler com 2 ou 3 vasos"
             }
         ]
     },
