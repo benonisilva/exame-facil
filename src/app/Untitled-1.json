@@ -1099,18 +1099,58 @@
                 1,
                 2
               ],
-              "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
+              "procedimento": "- Tomar 50 gotas de luftal de 4/4 horas 24 horas antes do exame.",
               "is_negrito": false,
               "is_obervacao": false,
               "orderm": 1
-            }
+            },
+            {
+                "grupos": [
+                  1,
+                  2
+                ],
+                "procedimento": "Na véspera do exame:",
+                "is_negrito": true,
+                "is_obervacao": false,
+                "orderm": 2
+              },
+              {
+                "grupos": [
+                  1,
+                  2
+                ],
+                "procedimento": "-Alimentação normal",
+                "is_negrito": false,
+                "is_obervacao": false,
+                "orderm": 3
+              },
+              {
+                "grupos": [
+                  1,
+                  2
+                ],
+                "procedimento": "No dia do exame:",
+                "is_negrito": true,
+                "is_obervacao": false,
+                "orderm": 4
+              },
+              {
+                "grupos": [
+                  1,
+                  2
+                ],
+                "procedimento": "- tomar 4 copos de água , 1 hora antes do exame.",
+                "is_negrito": false,
+                "is_obervacao": false,
+                "orderm": 5
+              }
           ],
           "grupos": [
             1,
             2
           ],
           "id": 1,
-          "nome": "Ultrassom de próstata (via abdominal)"
+          "nome": "Ultrassom de aparelho urinário (rins, bexiga)"
         },
         {
           "procedimentos": [
