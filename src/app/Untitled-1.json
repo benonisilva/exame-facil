@@ -1059,7 +1059,7 @@
                 1,
                 2
               ],
-              "procedimento": "",
+              "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
               "is_negrito": false,
               "is_obervacao": false,
               "orderm": 1
@@ -1070,7 +1070,7 @@
             2
           ],
           "id": 1,
-          "nome": "Radiografia de Esôfago"
+          "nome": "Ultrassom de próstata (via abdominal)"
         }
       ]
     },
