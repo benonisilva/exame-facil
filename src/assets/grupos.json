@@ -1426,8 +1426,7 @@
             },
             {
               "grupos": [
-                1,
-                2
+              3
               ],
               "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
               "is_negrito": true,
@@ -1466,8 +1465,7 @@
             },
             {
               "grupos": [
-                1,
-                2
+               3
               ],
               "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
               "is_negrito": true,
@@ -1506,8 +1504,7 @@
             },
             {
               "grupos": [
-                1,
-                2
+              3
               ],
               "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
               "is_negrito": true,

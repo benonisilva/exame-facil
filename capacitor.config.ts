@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'br.benonisilva.exame.app',
-  appName: 'Exame Facil',
+  appName: 'AMEI/HOL',
   webDir: 'www',
   bundledWebRuntime: false
 };

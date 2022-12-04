@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { Exame } from '../services/model/exame.model';
@@ -28,6 +29,12 @@ export class ExamesPage implements OnInit {
     this.exames = this.data.getExamesByGrupoId(id).filter(exame => exame.grupos.some(g=> g === this.userId));
     
     console.warn(this.exames);
+  }
+
+  getBackButtonText() {
+    const win = window as any;
+    const mode = win && win.Ionic && win.Ionic.mode;
+    return mode === 'ios' ? 'Inbox' : '';
   }
 
   getNextUrl(userId: number, grupoId: number, index: number): string {

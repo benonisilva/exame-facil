@@ -1,6 +1,11 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-searchbar debounce="200" placeholder="Procurar Exame"></ion-searchbar>
+    <ion-buttons slot="start">
+      <ion-back-button [text]="getBackButtonText()" defaultHref="/"></ion-back-button>
+      <ion-title>
+        Exames
+      </ion-title>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
