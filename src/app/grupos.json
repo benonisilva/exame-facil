@@ -1775,10 +1775,40 @@
                 1,
                 2
               ],
-              "procedimento": "",
+              "procedimento": "Na véspera do exame:",
               "is_negrito": false,
               "is_obervacao": false,
               "orderm": 1
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- não jantar, não tomar leite, apenas chá com torradas",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 2
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "- Jejum a partir das 22:00h, para exames pela manhã.",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 3
+            },
+            {
+              "grupos": [
+                1,
+                2
+              ],
+              "procedimento": "Paciente a partir de 60 anos, comparecer no dia do exame com avaliação pré anestésica:",
+              "is_negrito": false,
+              "is_obervacao": false,
+              "orderm": 4
             }
           ],
           "grupos": [
