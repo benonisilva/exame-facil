@@ -17,7 +17,8 @@ export class DataService {
 
 
   constructor(private fireBaseService: FireBaseService) { 
-    //console.log(gruposInicio);
+    //this.grupos = gruposInicio;
+    //this.initBase();
   }
 
 

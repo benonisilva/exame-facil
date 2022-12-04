@@ -19,7 +19,7 @@ export class FireBaseService {
         const data = (await documents).docs[0].data();
         const grupos = Object.values(data.grupos) as Grupo[];
         console.log(grupos);
-        return grupos;
+        return grupos; //grupos.filter(g=> !!g && !!g.grupos);
     }
 
     public async initGrupos(grupos: Grupo[]) {

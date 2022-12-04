@@ -1,1863 +1,2163 @@
 [
-    {
+  {
+      "exames": [
+          {
+              "id": 1,
+              "grupos": [
+                  1,
+                  2
+              ],
+              "procedimentos": [
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "São necessárias seis horas de jejum antes do exame.",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 1
+                  }
+              ],
+              "nome": "Radiografia de Esôfago"
+          },
+          {
+              "id": 1,
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "procedimento": "Na véspera do exame:",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Tomar 40 gotas de luftal de 4/4horas com pouca água, a partir das 08:00 até as 20:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 2
+                  },
+                  {
+                      "procedimento": "- Tomar 4 comprimidos de DUCOLAX às 18:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 3
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "procedimento": "- Fazer lavagem com FLEET ENEMA às 18:00h."
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "- Jantar às 19:00h. Sopa ou canja ou chá com torradas.",
+                      "is_negrito": false,
+                      "orderm": 5,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "- às 05:00h fazer novo FLEET ENEMA (se ainda estiver eliminando fezes).",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 6,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 7,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Comparecer em jejum total para fazer o exame."
+                  },
+                  {
+                      "procedimento": "Pacientes internados suspender a hidratação 06h antes da realização do exame.",
+                      "orderm": 8,
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1
+                      ]
+                  }
+              ],
+              "nome": "Radiografia de Transito Intestinal (intestino delgado)",
+              "grupos": [
+                  1,
+                  2
+              ]
+          },
+          {
+              "grupos": [
+                  1,
+                  2
+              ],
+              "nome": "Radiografia de Abdômen simples ou total",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "procedimento": "Na véspera do exame:"
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Jantar leve sem gordura",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 2
+                  },
+                  {
+                      "procedimento": "- Não comer doces.",
+                      "orderm": 3,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Ás 19:00h tomar 4 comprimidos de laxante (Ducolax ou Laxol).",
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- Jejum após as 19:00h. Pode manter a hidratação, tomando água ou água de côco ou chá.",
+                      "is_negrito": false,
+                      "orderm": 5
+                  },
+                  {
+                      "procedimento": "No dia do exame:",
+                      "is_obervacao": false,
+                      "orderm": 6,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": true
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "Paciente com mais de 65 anos, não é necessário tomar o laxante. Caso tenha problemas de prisão de ventre, tomar meio copo com água com 2 colheres de leite de magnésio após o jantar.",
+                      "is_negrito": false,
+                      "orderm": 7
+                  }
+              ],
+              "id": 1
+          },
+          {
+              "grupos": [
+                  1,
+                  2
+              ],
+              "id": 1,
+              "nome": "Radiografia de coluna Toraco-lombar",
+              "procedimentos": [
+                  {
+                      "procedimento": "Na véspera do exame:",
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;",
+                      "orderm": 2
+                  },
+                  {
+                      "orderm": 3,
+                      "procedimento": "- Jantar chá com torradas;",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "procedimento": "- Comparecer em jejum total;",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 5,
+                      "is_obervacao": false
+                  }
+              ]
+          },
+          {
+              "nome": "Radiografia de coluna Lombo-sacra",
+              "id": 1,
+              "grupos": [
+                  1,
+                  2
+              ],
+              "procedimentos": [
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Na véspera do exame:",
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 2
+                  },
+                  {
+                      "is_negrito": false,
+                      "procedimento": "- Jantar chá com torradas;",
+                      "orderm": 3,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Comparecer em jejum total;",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 5,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
+              ]
+          },
+          {
+              "procedimentos": [
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Na véspera do exame:",
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 2,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;"
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- Jantar chá com torradas;",
+                      "is_negrito": false,
+                      "orderm": 3
+                  },
+                  {
+                      "procedimento": "- Comparecer em jejum total;",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
+                      "is_obervacao": false,
+                      "orderm": 5,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  }
+              ],
+              "nome": "Radiografia de região sacro-coccígea",
+              "grupos": [
+                  1,
+                  2
+              ],
+              "id": 1
+          },
+          {
+              "nome": "Clister Opaco ou Enema Opaco",
+              "id": 1,
+              "grupos": [
+                  1,
+                  2
+              ],
+              "procedimentos": [
+                  {
+                      "is_negrito": true,
+                      "procedimento": "Na véspera do exame:",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1
+                  },
+                  {
+                      "procedimento": "- Ás 07:00h tomar chá com torradas, em seguida manter dieta líquidos claros.",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 2,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 3,
+                      "procedimento": "- Tomar 2 comprimidos de DUCOLAX, às 08:00h, 16:00h e às 20:00h;",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "- Jejum a partir das 22:00h;",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 4
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "No caso de paciente internado o mesmo deve manter hidratação endovenosa até o dia do exame.",
+                      "grupos": [
+                          1
+                      ],
+                      "is_negrito": true,
+                      "orderm": 5
+                  },
+                  {
+                      "is_negrito": true,
+                      "procedimento": "No dia do exame (se for pela manhã):",
+                      "is_obervacao": false,
+                      "orderm": 6,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "orderm": 7,
+                      "is_negrito": false,
+                      "procedimento": "- Ás 06:00h colocar 2 supositórios de glicerina ou realizar FLEET ENEMA.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 8,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Paciente deve apresentar-se para o exame em jejum."
+                  },
+                  {
+                      "procedimento": "No caso de exames pelo horário da tarde, tomar um caldo de sopa coado ás 10:00h.",
+                      "orderm": 9,
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
+              ]
+          },
+          {
+              "nome": "Urografia Excretora ou venosa",
+              "procedimentos": [
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": true,
+                      "orderm": 1,
+                      "procedimento": "Na véspera do exame:"
+                  },
+                  {
+                      "orderm": 2,
+                      "is_negrito": false,
+                      "procedimento": "- Alimentação leve, evitar doces.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Ás 19:00h tomar 4 comprimidos de Laxante (Ducolax ou Laxol).",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 3
+                  },
+                  {
+                      "orderm": 4,
+                      "procedimento": "- Jejum a partir das 19:00h;",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1
+                      ],
+                      "orderm": 5,
+                      "procedimento": "No dia do exame:",
+                      "is_negrito": true,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 6,
+                      "is_negrito": false,
+                      "procedimento": "Comparecer em jejum ao DDI"
+                  },
+                  {
+                      "grupos": [
+                          1
+                      ],
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "orderm": 7,
+                      "procedimento": "Paciente que fizer uso de METFORMINA, suspender o uso três dias antes do exame."
+                  }
+              ],
+              "id": 1,
+              "grupos": [
+                  1,
+                  2
+              ]
+          },
+          {
+              "id": 1,
+              "nome": "Uretrocistografia Miccional",
+              "procedimentos": [
+                  {
+                      "procedimento": "Na véspera do exame:",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": true,
+                      "orderm": 1
+                  },
+                  {
+                      "procedimento": "- Ás 19:00h tomar 2 comprimidos de laxante e iniciar jejum;",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 2
+                  },
+                  {
+                      "procedimento": "- Idosos a partir de 60 anos, não necessitam fazer o laxante, somente jejum de 8 horas antes do exame.",
+                      "orderm": 3,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "is_negrito": true,
+                      "procedimento": "Se você faz uso de METFORMINA, suspender o uso do medicamento 3 dias antes do exame.",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
+              ],
+              "grupos": [
+                  1,
+                  2
+              ]
+          }
+      ],
       "id": 1,
-      "nome": "RADIOGRAFIA SIMPLES (RAIO-X)",
       "grupos": [
-        1,
-        2
+          1,
+          2
       ],
-      "exames": [
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "São necessárias seis horas de jejum antes do exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de Esôfago"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 40 gotas de luftal de 4/4horas com pouca água, a partir das 08:00 até as 20:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 4 comprimidos de DUCOLAX às 18:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Fazer lavagem com FLEET ENEMA às 18:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jantar às 19:00h. Sopa ou canja ou chá com torradas.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- às 05:00h fazer novo FLEET ENEMA (se ainda estiver eliminando fezes).",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Comparecer em jejum total para fazer o exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 7
-            },
-            {
-              "grupos": [
-                1
-              ],
-              "procedimento": "Pacientes internados suspender a hidratação 06h antes da realização do exame.",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 8
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de Transito Intestinal (intestino delgado)"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jantar leve sem gordura",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Não comer doces.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Ás 19:00h tomar 4 comprimidos de laxante (Ducolax ou Laxol).",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum após as 19:00h. Pode manter a hidratação, tomando água ou água de côco ou chá.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "No dia do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente com mais de 65 anos, não é necessário tomar o laxante. Caso tenha problemas de prisão de ventre, tomar meio copo com água com 2 colheres de leite de magnésio após o jantar.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 7
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de Abdômen simples ou total"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jantar chá com torradas;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Comparecer em jejum total;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de coluna Toraco-lombar"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jantar chá com torradas;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Comparecer em jejum total;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de coluna Lombo-sacra"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 2 comp. De Ducolax ou Lacto-purga às 19h. Se não fizer efeito tomar mais 2 comp.  ás 23:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jantar chá com torradas;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Comparecer em jejum total;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente com mais de 60 anos não precisa de preparo, caso sofra de prisão de ventre, ventre, tomar meio copo com água com 2 colheres de leite de magnésia após o jantar",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Radiografia de região sacro-coccígea"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Ás 07:00h tomar chá com torradas, em seguida manter dieta líquidos claros.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 2 comprimidos de DUCOLAX, às 08:00h, 16:00h e às 20:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum a partir das 22:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1
-              ],
-              "procedimento": "No caso de paciente internado o mesmo deve manter hidratação endovenosa até o dia do exame.",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "No dia do exame (se for pela manhã):",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Ás 06:00h colocar 2 supositórios de glicerina ou realizar FLEET ENEMA.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 7
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente deve apresentar-se para o exame em jejum.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 8
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "No caso de exames pelo horário da tarde, tomar um caldo de sopa coado ás 10:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 9
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Clister Opaco ou Enema Opaco"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Alimentação leve, evitar doces.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Ás 19:00h tomar 4 comprimidos de Laxante (Ducolax ou Laxol).",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum a partir das 19:00h;",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1
-              ],
-              "procedimento": "No dia do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Comparecer em jejum ao DDI",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1
-              ],
-              "procedimento": "Paciente que fizer uso de METFORMINA, suspender o uso três dias antes do exame.",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 7
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Urografia Excretora ou venosa"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Ás 19:00h tomar 2 comprimidos de laxante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Idosos a partir de 60 anos, não necessitam fazer o laxante, somente jejum de 8 horas antes do exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Pacientes que fazem uso de METFORMINA, suspender o uso do medicamento 3 dias antes do exame.",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 4
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Uretrocistografia Miccional"
-        }
-      ]
-    },
-    {
-      "id": 2,
+      "nome": "RADIOGRAFIA SIMPLES (RAIO-X)"
+  },
+  {
       "nome": "NEURORRADIOLOGIA INTERVENCIONISTA",
-      "grupos": [
-        1,
-        2
-      ],
       "exames": [
-        {
-          "procedimentos": [
-            {
+          {
+              "nome": "Angiografia cerebral de 4 vasos",
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "procedimento": "- Realizar tricotomia (depilação), nas regiões inguinais direita e esquerda (virilha direita e esquerda).",
+                      "orderm": 2
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 3,
+                      "is_obervacao": false,
+                      "procedimento": "Se você for diabético e fizer uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+                      "is_negrito": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 4,
+                      "procedimento": "Se você for Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h Paciente ambulatorial comparecer ao DDI com acompanhante."
+                  },
+                  {
+                      "procedimento": "Se você for Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h Paciente ambulatorial comparecer ao DDI com acompanhante.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 5,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 6,
+                      "procedimento": "No dia do seu exame tenha em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação pré anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  }
+              ]
+          },
+          {
+              "id": 1,
+              "procedimentos": [
+                  {
+                      "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 1
+                  },
+                  {
+                      "orderm": 2,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 3,
+                      "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "orderm": 4,
+                      "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "orderm": 5,
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "is_negrito": false,
+                      "orderm": 6
+                  }
+              ],
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
+              "nome": "Arteriografia seletiva de Carótida"
+          },
+          {
+              "nome": "Arteriografia Seletiva por Cateter",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 2,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 3,
+                      "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 5,
+                      "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "is_negrito": false,
+                      "orderm": 6,
+                      "is_obervacao": false
+                  }
+              ],
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
+              ]
+          },
+          {
+              "nome": "Arteriografia Seletiva Vertebral",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
+                      "orderm": 1,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+                      "orderm": 2
+                  },
+                  {
+                      "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 3
+                  },
+                  {
+                      "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 5,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante."
+                  },
+                  {
+                      "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 6,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
               ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
+              "id": 1,
               "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
+                  1,
+                  2
+              ]
+          },
+          {
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
+              "id": 1,
+              "nome": "Arteriografia para Investigação Hemorrágica",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "- Jejum na véspera do exame, a partir das 22:00h."
+                  },
+                  {
+                      "orderm": 2,
+                      "is_obervacao": false,
+                      "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 3,
+                      "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 5,
+                      "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "orderm": 6,
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  }
+              ]
+          },
+          {
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Angiografia cerebral de 4 vasos"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Arteriografia seletiva de Carótida"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Arteriografia Seletiva por Cateter"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Arteriografia Seletiva Vertebral"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Jejum na véspera do exame, a partir das 22:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente ambulatorial comparecer ao DDI com acompanhante.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Arteriografia para Investigação Hemorrágica"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Para estes tipos de procedimentos é necessária internação prévia do paciente, que após o fim do exame será encaminhado ao CTI, para observação rigorosa, por 24hs.",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "-São necessárias 12 horas de jejum.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1
-              ],
-              "procedimento": "- Confirmar reserva de CTI",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 7
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Embolização de Nasoangiofibroma"
-        }
+              "nome": "Embolização de Nasoangiofibroma",
+              "id": 1,
+              "procedimentos": [
+                  {
+                      "procedimento": "Para estes tipos de procedimentos é necessária internação prévia do paciente, que após o fim do exame será encaminhado ao CTI, para observação rigorosa, por 24hs.",
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": true,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "-São necessárias 12 horas de jejum.",
+                      "orderm": 2
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Realizar tricotomia, nas regiões inguinais direita e esquerda.",
+                      "orderm": 3,
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "procedimento": "- Paciente diabético que faz uso de METFORMINA, suspender o uso do medicamento por três dias antes do procedimento."
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 5,
+                      "procedimento": "- Paciente Hipertenso, tomar medicamento para controle da pressão arterial às 06:00h",
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- No dia do exame o paciente deve ter em mãos exames de pré operatório completo (resultado de exames laboratoriais, eletrocardiograma, Raio X de tórax, avaliação anestésica e risco cirúrgico caso tenha sido solicitado.",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 6,
+                      "is_negrito": false
+                  },
+                  {
+                      "procedimento": "- Confirmar reserva de CTI",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1
+                      ],
+                      "orderm": 7,
+                      "is_negrito": true
+                  }
+              ]
+          }
+      ],
+      "id": 2,
+      "grupos": [
+          1,
+          2
       ]
-    },
-    {
-      "id": 3,
+  },
+  {
       "nome": "ULTRASSOM SIMPLES E DOPPLER",
+      "id": 3,
       "grupos": [
-        1,
-        2
+          1,
+          2
       ],
       "exames": [
-        {
-          "procedimentos": [
-            {
+          {
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ultrassom de próstata (via abdominal)"
-        },
-        {
-          "procedimentos": [
-            {
+              "nome": "Ultrassom de próstata (via abdominal)",
+              "procedimentos": [
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "Tomar 4 copos de água 1 hora antes do exame. Não urinar.",
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  }
+              ]
+          },
+          {
+              "procedimentos": [
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "Na véspera do exame: Jantar sopa ou canja.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 2,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 3,
+                      "procedimento": "- Tomar 50 gotas de luftal de 4/4 horas, na véspera do exame."
+                  },
+                  {
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "procedimento": "No dia do exame:"
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 5,
+                      "is_obervacao": false,
+                      "procedimento": "No dia do exame: -Tomar 4 copos de água , 1 hora antes do exame e não urinar"
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 6,
+                      "procedimento": "Se o exame for pela manhã, paciente deve estar de jejum.",
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "procedimento": "Se o exame for a tarde, paciente pode tomar chá com torradas ás 07:00h",
+                      "orderm": 7,
+                      "is_obervacao": false
+                  }
+              ],
+              "id": 1,
+              "nome": "Ultrassom de abdômen total",
               "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame: Jantar sopa ou canja.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
+                  1,
+                  2
+              ]
+          },
+          {
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Tomar 50 gotas de luftal de 4/4 horas, na véspera do exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
+              "procedimentos": [
+                  {
+                      "procedimento": "- Tomar 50 gotas de luftal de 4/4 horas 24 horas antes do exame.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_negrito": true,
+                      "procedimento": "Na véspera do exame:",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 2
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 3,
+                      "is_negrito": false,
+                      "procedimento": "-Alimentação normal"
+                  },
+                  {
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": true,
+                      "procedimento": "No dia do exame:"
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 5,
+                      "procedimento": "- tomar 4 copos de água , 1 hora antes do exame.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  }
+              ],
+              "nome": "Ultrassom de aparelho urinário (rins, bexiga)"
+          },
+          {
+              "procedimentos": [
+                  {
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "procedimento": "Se o exame for pela manhã",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 2,
+                      "procedimento": "Na véspera do exame:",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": true
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- jejum às 22:00h",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 3
+                  },
+                  {
+                      "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 22:00h e às 05:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 4,
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": true,
+                      "orderm": 5,
+                      "procedimento": "Se o exame for a tarde:"
+                  },
+                  {
+                      "procedimento": " -Tomar chá com torradas às 07:00h, depois ficar de jejum.",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 6,
+                      "is_negrito": false
+                  },
+                  {
+                      "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 10:00h e às 12:00h.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 7
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "Glicerol 120mg/mL pode ser disponibilizado no posto de enfermagem do DDI",
+                      "is_negrito": true,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 8
+                  }
+              ],
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "No dia do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
+              "id": 1,
+              "nome": "Ultrassom de próstata (transretal)"
+          },
+          {
+              "id": 1,
+              "procedimentos": [
+                  {
+                      "procedimento": "Os exames de Ultrassom Doppler, não necessitam de preparo",
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
+              ],
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "No dia do exame: -Tomar 4 copos de água , 1 hora antes do exame e não urinar",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Se o exame for pela manhã, paciente deve estar de jejum.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Se o exame for a tarde, paciente pode tomar chá com torradas ás 07:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 7
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ultrassom de abdômen total"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Tomar 50 gotas de luftal de 4/4 horas 24 horas antes do exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "-Alimentação normal",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "No dia do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- tomar 4 copos de água , 1 hora antes do exame.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ultrassom de aparelho urinário (rins, bexiga)"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Se o exame for pela manhã",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- jejum às 22:00h",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 22:00h e às 05:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Se o exame for a tarde:",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": " -Tomar chá com torradas às 07:00h, depois ficar de jejum.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Fazer lavagem intestinal com glicerol 120mg/mL (500mL) às 10:00h e às 12:00h.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 7
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Glicerol 120mg/mL pode ser disponibilizado no posto de enfermagem do DDI",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 8
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ultrassom de próstata (transretal)"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Os exames de Ultrassom Doppler, não necessitam de preparo",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ultrassom Doppler com 2 ou 3 vasos"
-        }
+              "nome": "Ultrassom Doppler com 2 ou 3 vasos"
+          }
       ]
-    },
-    {
+  },
+  {
+      "grupos": [
+          1,
+          2
+      ],
       "id": 4,
       "nome": "TOMOGRAFIAS COMPUTADORIZADAS",
-      "grupos": [
-        1,
-        2
-      ],
       "exames": [
-        {
-          "procedimentos": [
-            {
+          {
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Não necessitam de preparo",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Tomografias computadorizadas sem contraste"
-        },
-        {
-          "procedimentos": [
-            {
+              "id": 1,
+              "nome": "Tomografias computadorizadas sem contraste",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "Não necessitam de preparo",
+                      "is_obervacao": false
+                  }
+              ]
+          },
+          {
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Paciente ambulatorial: será puncionado acesso venoso periférico pela equipe de enfermagem ao se apresentar no DDI",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente internado deve ser encaminhado com acesso periférico (Jelco nº20)",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "São necessárias 4 horas de jejum para estes exames",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente diabético: suspender o uso de METFORMINA 3 dias antes do exame",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente que for alérgico ao contraste iodado ou a frutos do mar, deverá realizar preparo anti alérgico 72 horas antes do exame que ",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "consiste em:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- ALLEGRA DE 60mg, 1 comprimido a cada 12 horas (durante três dias antes do exame);",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 7
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- PREDNISONA 5mg, 1 comprimido ao dia(durante três dias antes do exame).",
-              "is_negrito": true,
-              "is_obervacao": false,
-              "orderm": 8
-            },
-            {
-              "grupos": [
-                3
-              ],
-              "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
-              "is_negrito": true,
-              "is_obervacao": true,
-              "orderm": 9
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Tomografias computadorizadas com contraste e Angiotomografias"
-        }
+              "nome": "Tomografias computadorizadas com contraste e Angiotomografias",
+              "procedimentos": [
+                  {
+                      "procedimento": "Paciente ambulatorial: será puncionado acesso venoso periférico pela equipe de enfermagem ao se apresentar no DDI",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 2,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Paciente internado deve ser encaminhado com acesso periférico (Jelco nº20)",
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "is_negrito": true,
+                      "orderm": 3,
+                      "procedimento": "São necessárias 4 horas de jejum para estes exames",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "Paciente diabético: suspender o uso de METFORMINA 3 dias antes do exame",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 4
+                  },
+                  {
+                      "procedimento": "Paciente que for alérgico ao contraste iodado ou a frutos do mar, deverá realizar preparo anti alérgico 72 horas antes do exame que ",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 5
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "consiste em:",
+                      "is_negrito": false,
+                      "orderm": 6,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "procedimento": "- ALLEGRA DE 60mg, 1 comprimido a cada 12 horas (durante três dias antes do exame);",
+                      "orderm": 7,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 8,
+                      "procedimento": "- PREDNISONA 5mg, 1 comprimido ao dia(durante três dias antes do exame).",
+                      "is_negrito": true
+                  },
+                  {
+                      "is_negrito": true,
+                      "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
+                      "grupos": [
+                          3
+                      ],
+                      "is_obervacao": true,
+                      "orderm": 9
+                  }
+              ]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 5,
       "nome": "RESSONÂNCIA MAGNÉTICA",
       "grupos": [
-        1,
-        2
+          1,
+          2
       ],
       "exames": [
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
+          {
+              "procedimentos": [
+                  {
+                      "procedimento": "Não existe preparo para exames sem contraste.",
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 2,
+                      "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
+                      "is_negrito": true,
+                      "grupos": [
+                          3
+                      ],
+                      "is_obervacao": true
+                  }
               ],
-              "procedimento": "Não existe preparo para exames sem contraste.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
+              "nome": "Ressonância Magnética sem contraste",
+              "id": 1,
               "grupos": [
-             3
-              ],
-              "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
-              "is_negrito": true,
-              "is_obervacao": true,
-              "orderm": 2
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ressonância Magnética sem contraste"
-        },
-        {
-          "procedimentos": [
-            {
+                  1,
+                  2
+              ]
+          },
+          {
+              "nome": "Ressonância Magnética com contraste - Colangioressonância e Angioressonância",
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Jejum de 4 horas antes do exame",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Não se apresentar com cabelo molhado",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-            3
-              ],
-              "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
-              "is_negrito": true,
-              "is_obervacao": true,
-              "orderm": 3
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Ressonância Magnética com contraste - Colangioressonância e Angioressonância"
-        }
+              "procedimentos": [
+                  {
+                      "procedimento": "Jejum de 4 horas antes do exame",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "Não se apresentar com cabelo molhado",
+                      "is_obervacao": false,
+                      "orderm": 2,
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "procedimento": "Pacientes (ambulatoriais) que tem cânulas metálicas de traqueostomia devem se apresentar ao serviço de enfermagem do DDI 48horas antes do exame para programação de troca de cânula. Para o paciente internado deve ser feita programação de troca da cânula, pela clínica junto ao setor especializado.",
+                      "grupos": [
+                          3
+                      ],
+                      "orderm": 3,
+                      "is_negrito": true,
+                      "is_obervacao": true
+                  }
+              ]
+          }
       ]
-    },
-    {
-      "id": 6,
+  },
+  {
       "nome": "BIÓPSIAS",
       "grupos": [
-        1,
-        2
+          1,
+          2
       ],
       "exames": [
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
+          {
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "nome": "Paaf (punção aspirativa por agulha fina) de tireóide"
-        },
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
+              "procedimentos": [
+                  {
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo."
+                  },
+                  {
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 8,
+                      "is_negrito": true,
+                      "is_obervacao": true
+                  }
+              ],
+              "nome": "Paaf (punção aspirativa por agulha fina) de tireóide"
+          },
+          {
+              "nome": "Paaf (punção aspirativa por agulha grossa) de mama",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo."
+                  },
+                  {
+                      "is_obervacao": true,
+                      "is_negrito": true,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "orderm": 8
+                  }
+              ],
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
+              ]
+          },
+          {
+              "procedimentos": [
+                  {
+                      "procedimento": "Jejum de 4 a 6 horas se for previsto a utilização de contraste ou sedativo.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 8,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "is_negrito": true,
+                      "is_obervacao": true
+                  }
               ],
-              "procedimento": "Procedimento geralmente ambulatorial. Não necessita de preparo.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "nome": "Paaf (punção aspirativa por agulha grossa) de mama"
-        },
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "Jejum de 4 a 6 horas se for previsto a utilização de contraste ou sedativo.",
-              "is_obervacao": false,
-              "is_negrito": false
-            }
-          ],
-          "nome": "Biópsia de Tórax Guiada por Ultrassom ou tomografia"
-        },
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
+              "nome": "Biópsia de Tórax Guiada por Ultrassom ou tomografia"
+          },
+          {
+              "nome": "Biópsia de Rim Transplantado",
+              "procedimentos": [
+                  {
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Procedimento realizado em paciente internado. ",
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 2,
+                      "procedimento": "- Não existe preparo pré exame. ",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "- O Preparo é pós exame e prescrito pelo Enfermeiro Nefrologista da clínica.",
+                      "orderm": 3,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": true,
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "is_negrito": true,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 8
+                  }
+              ],
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Procedimento realizado em paciente internado. ",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 1
-            },
-            {
+              "id": 1
+          },
+          {
+              "nome": "Biópsia Hepática",
+              "procedimentos": [
+                  {
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Jejum de 8 horas antes do exame."
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 2,
+                      "is_obervacao": false,
+                      "procedimento": "Observar a importância de exames pré operatórios no dia do exame"
+                  },
+                  {
+                      "is_obervacao": true,
+                      "is_negrito": true,
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "orderm": 8,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
+              ],
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Não existe preparo pré exame. ",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 2
-            },
-            {
+              "id": 1
+          },
+          {
+              "procedimentos": [
+                  {
+                      "procedimento": "Na véspera do exame: ",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": true,
+                      "is_negrito": false,
+                      "orderm": 1
+                  },
+                  {
+                      "orderm": 2,
+                      "is_negrito": false,
+                      "procedimento": "- Realizar 1ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 21:00h",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": false,
+                      "orderm": 3,
+                      "is_obervacao": false,
+                      "procedimento": "-Iniciar 1 comprimido de Ciprofloxacino de 12/12horas.",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "orderm": 4,
+                      "is_negrito": false,
+                      "procedimento": "No dia do exame: ",
+                      "is_obervacao": true,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Fazer a 2ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 05:00h",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 4
+                  },
+                  {
+                      "orderm": 5,
+                      "procedimento": "- Trazer uma caixa de supositório PROCTO-GLYVENOL",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Paciente que faz uso de AAS, suspender o uso do medicamento por 8 dias antes do exame.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": true,
+                      "orderm": 6
+                  },
+                  {
+                      "orderm": 7,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Paciente ambulatorial pode receber o preparo do exame no posto de enfermagem do DDI 2 dias antes do exame.",
+                      "is_negrito": false,
+                      "is_obervacao": true
+                  },
+                  {
+                      "is_negrito": true,
+                      "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": true,
+                      "orderm": 8
+                  }
+              ],
+              "id": 1,
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- O Preparo é pós exame e prescrito pelo Enfermeiro Nefrologista da clínica.",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 3
-            }
-          ],
-          "nome": "Biópsia de Rim Transplantado"
-        },
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Jejum de 8 horas antes do exame.",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Observar a importância de exames pré operatórios no dia do exame",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 2
-            }
-          ],
-          "nome": "Biópsia Hepática"
-        },
-        {
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Na véspera do exame: ",
-              "is_obervacao": true,
-              "is_negrito": false,
-              "orderm": 1
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Realizar 1ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 21:00h",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 2
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "-Iniciar 1 comprimido de Ciprofloxacino de 12/12horas.",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 3
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "No dia do exame: ",
-              "is_obervacao": true,
-              "is_negrito": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Fazer a 2ª lavagem intestinal com um frasco de glicerol 120mg/mL (250mL) às 05:00h",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 4
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Trazer uma caixa de supositório PROCTO-GLYVENOL",
-              "is_obervacao": false,
-              "is_negrito": false,
-              "orderm": 5
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente que faz uso de AAS, suspender o uso do medicamento por 8 dias antes do exame.",
-              "is_obervacao": true,
-              "is_negrito": false,
-              "orderm": 6
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- Paciente ambulatorial pode receber o preparo do exame no posto de enfermagem do DDI 2 dias antes do exame.",
-              "is_obervacao": true,
-              "is_negrito": false,
-              "orderm": 7
-            },
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Os resultados das biópsias são entregues pelo serviço de Patologia em até 20 dias úteis. Para que seja realizado qualquer tipo de biópsia é necessário apresentar junto da solicitação médica a cópia do RG, CPF, Comprovante de residência e Cartão SUS (paciente ambulatorial e internado).",
-              "is_obervacao": true,
-              "is_negrito": true,
-              "orderm": 8
-            }
-          ],
-          "nome": "Biópsia de Próstata guiada por Ultrassom"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "nome": "ENDOSCOPIA",
+              "nome": "Biópsia de Próstata guiada por Ultrassom"
+          }
+      ],
+      "id": 6
+  },
+  {
       "grupos": [
-        1,
-        2
+          1,
+          2
       ],
+      "id": 7,
       "exames": [
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
+          {
+              "nome": "Endoscopia Digestiva Alta",
+              "procedimentos": [
+                  {
+                      "procedimento": "Na véspera do exame:",
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "procedimento": "- não jantar, não tomar leite, apenas chá com torradas",
+                      "orderm": 2,
+                      "is_obervacao": false
+                  },
+                  {
+                      "procedimento": "- Jejum a partir das 22:00h, para exames pela manhã.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "orderm": 3
+                  },
+                  {
+                      "procedimento": "Paciente a partir de 60 anos, comparecer no dia do exame com avaliação pré anestésica:",
+                      "is_obervacao": false,
+                      "is_negrito": false,
+                      "orderm": 4,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  }
               ],
-              "procedimento": "Na véspera do exame:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            },
-            {
+              "id": 1,
               "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "- não jantar, não tomar leite, apenas chá com torradas",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 2
-            },
-            {
+                  1,
+                  2
+              ]
+          },
+          {
+              "id": 1,
+              "nome": "Colonocospia",
               "grupos": [
-                1,
-                2
+                  1,
+                  2
               ],
-              "procedimento": "- Jejum a partir das 22:00h, para exames pela manhã.",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 3
-            },
-            {
+              "procedimentos": [
+                  {
+                      "procedimento": "Na véspera do exame:",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 1
+                  },
+                  {
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Não tomar leite ou derivados (queijo, manteiga, iogurte, etc)",
+                      "is_obervacao": false,
+                      "orderm": 1
+                  },
+                  {
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Não comer fibras (frutas, verduras, legumes, feijão, milho, etc)",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1
+                  },
+                  {
+                      "is_negrito": false,
+                      "procedimento": "-Tomar bastante líquido (água, chá, água de côco durante o dia todo).",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1
+                  },
+                  {
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Tomar 2 comprimidos de DUCOLAX ás 14:00h, se o intestino não funcionar, tomar mais 2 comprimidos às 18:00h."
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "procedimento": "- É permitido canja sem legumes, arroz branco, carne de frango ou peixe cozido ou grelhado sem legumes, torrada ou bolacha salgada (sem manteiga)",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "procedimento": "- Ás 18:00h iniciar preparo intestinal que consiste em: misturar 500ml de MANITOL a 20% com meio litro de suco de laranja coado e um frasco de SIMETICONA. Tomar um copo da mistura a cada 30 minutos.",
+                      "is_obervacao": false,
+                      "orderm": 1
+                  },
+                  {
+                      "is_negrito": false,
+                      "orderm": 1,
+                      "procedimento": "-Jejum após ás 22:00h",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "procedimento": "No caso de exames marcados para a tarde:",
+                      "is_negrito": false
+                  },
+                  {
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Seguir mesma orientação da dieta, porem iniciar preparo intestinal ás 06:00h tomando a mistura do MANITOL, com suco de laranja  e SIMETICONA"
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "Em casos de pacientes a partir de 60 anos é necessário avaliação pré anestésica.",
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "orderm": 1
+                  },
+                  {
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "O MANITOL é disponibilizado no posto de enfermagem do DDI",
+                      "is_negrito": true
+                  }
+              ]
+          },
+          {
+              "procedimentos": [
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "Na véspera do exame:",
+                      "is_negrito": false,
+                      "is_obervacao": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "procedimento": "- Não tomar leite ou derivados (queijo, manteiga, iogurte, etc)",
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "- Não comer fibras (frutas, verduras, legumes, feijão, milho, etc)",
+                      "is_obervacao": false,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "- Tomar bastante líquido (água, chá, água de côco durante o dia todo).",
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "is_negrito": false,
+                      "is_obervacao": false,
+                      "procedimento": "- Tomar 2 comprimidos de DUCOLAX ás 14:00h, se o intestino não funcionar, tomar mais 2 às 18:00h."
+                  },
+                  {
+                      "orderm": 1,
+                      "procedimento": "- É permitido canja sem legumes, arroz branco, carne de frango ou peixe cozido ou grelhado sem legumes, torrada ou bolacha salgada (sem manteiga)",
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false
+                  },
+                  {
+                      "orderm": 1,
+                      "procedimento": "- Ás 18:00h iniciar preparo intestinal que consiste em: misturar 500ml de MANITOL a 20% com meio litro de suco de laranja coado e um frasco de SIMETICONA. Tomar o copo da mistura a cada 30 minutos.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": false
+                  },
+                  {
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "- Jejum após ás 22:00h",
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false
+                  },
+                  {
+                      "is_obervacao": false,
+                      "procedimento": "No caso de exames marcados para a tarde:",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_negrito": false,
+                      "orderm": 1
+                  },
+                  {
+                      "orderm": 1,
+                      "is_obervacao": false,
+                      "procedimento": "- Seguir mesma orientação da dieta, porem iniciar preparo intestinal ás 06:00h tomando a mistura do MANITOL, com suco de laranja  e SIMETICONA",
+                      "is_negrito": false,
+                      "grupos": [
+                          1,
+                          2
+                      ]
+                  },
+                  {
+                      "is_negrito": true,
+                      "is_obervacao": false,
+                      "procedimento": "Em casos de pacientes a partir de 60 anos é necessário avaliação pré anestésica.",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1
+                  },
+                  {
+                      "is_negrito": true,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "procedimento": "O MANITOL é disponibilizado no posto de enfermagem do DDI",
+                      "orderm": 1,
+                      "is_obervacao": false
+                  },
+                  {
+                      "orderm": 1,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "is_negrito": true,
+                      "procedimento": "#PACIENTE COM COLOSTOMIA:"
+                  },
+                  {
+                      "is_obervacao": false,
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "orderm": 1,
+                      "procedimento": "- Fazer 1ª lavagem com um frasco de Glicerol 120mg/mL (500mL) às 21:00h (véspera do exame)",
+                      "is_negrito": false
+                  },
+                  {
+                      "procedimento": "- 2ª lavagem com um frasco de Glicerol 120mg/mL (500mL) às 06:00h",
+                      "grupos": [
+                          1,
+                          2
+                      ],
+                      "is_obervacao": false,
+                      "orderm": 1,
+                      "is_negrito": false
+                  }
+              ],
+              "nome": "Retosigmoidoscopia",
+              "id": 1,
               "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "Paciente a partir de 60 anos, comparecer no dia do exame com avaliação pré anestésica:",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 4
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Endoscopia Digestiva Alta"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Colonocospia"
-        },
-        {
-          "procedimentos": [
-            {
-              "grupos": [
-                1,
-                2
-              ],
-              "procedimento": "",
-              "is_negrito": false,
-              "is_obervacao": false,
-              "orderm": 1
-            }
-          ],
-          "grupos": [
-            1,
-            2
-          ],
-          "id": 1,
-          "nome": "Retosigmoidoscopia"
-        }
-      ]
-    }
-  ]
+                  1,
+                  2
+              ]
+          }
+      ],
+      "nome": "ENDOSCOPIA"
+  }
+]
