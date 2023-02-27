@@ -34,7 +34,7 @@ export class ExamesPage implements OnInit {
   getBackButtonText() {
     const win = window as any;
     const mode = win && win.Ionic && win.Ionic.mode;
-    return mode === 'ios' ? 'Inbox' : '';
+    return mode === 'ios' ? 'Voltar' : '';
   }
 
   getNextUrl(userId: number, grupoId: number, index: number): string {

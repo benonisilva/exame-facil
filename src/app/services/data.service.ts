@@ -3,8 +3,6 @@ import { FireBaseService } from './firebase/service';
 import { Exame } from './model/exame.model';
 import { Grupo } from './model/grupo.model';
 
-import * as gruposInicio from '../../assets/grupos.json';
-
 
 @Injectable({
   providedIn: 'root'

@@ -5,4 +5,5 @@ export interface Grupo {
     nome: string;
     grupos: number[];
     exames: Exame[];
+    isNew?: boolean;
 }
